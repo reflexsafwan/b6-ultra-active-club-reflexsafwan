@@ -1,5 +1,6 @@
 import './App.css';
-import Products from './components/Products/Products';
+import ExcerciseList from './components/ExcerciseList/ExcerciseList';
+
 import Questions from './components/Questions/Questions';
 
 
@@ -8,7 +9,7 @@ function App() {
 
   return (
     <div>
-      <Products></Products>
+      <ExcerciseList></ExcerciseList>
       <Questions></Questions>
 
     </div>

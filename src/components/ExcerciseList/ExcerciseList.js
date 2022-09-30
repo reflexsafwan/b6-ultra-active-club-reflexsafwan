@@ -1,14 +1,15 @@
-import './Products.css'
+import './ExcerciseList.css'
 import React, { useEffect, useState } from 'react';
-import Cart from '../Cart/Cart';
-import SummaryCart from '../SummaryCart/SummaryCart';
+import GymItem from '../GymItem/GymItem';
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPersonWalking } from '@fortawesome/free-solid-svg-icons'
+import Summary from '../Summary/Summary';
 
 
 
 
-const Products = () => {
+const ExcerciseList = () => {
     const [datas, setDatas] = useState([])
     const [times, setTimes] = useState([])
 
@@ -28,19 +29,19 @@ const Products = () => {
                 <h3 className='product-side-h3'>Select Your Exercise  </h3>
                 <div className='products-container'>
                     {
-                        datas.map(data => <Cart
+                        datas.map(data => <GymItem
                             key={data.id}
                             eventHandler={addedTime}
                             data={data}
-                        ></Cart>)
+                        ></GymItem>)
                     }
                 </div>
             </div>
             <div className='summary-side'>
-                <SummaryCart times={times}></SummaryCart>
+                <Summary times={times}></Summary>
             </div>
         </div >
     );
 };
 
-export default Products;
+export default ExcerciseList;

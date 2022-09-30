@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { addToLocalStorage } from '../../utilities';
-import './SummaryCart.css'
+import { addToLocalStorage } from '../../localstorage';
+import './Summary.css'
 
-const SummaryCart = ({ times }) => {
+const Summary = ({ times }) => {
     const [breakTimes, SetBreakTimes] = useState(0);
 
     useEffect(() => {
@@ -87,4 +87,4 @@ const SummaryCart = ({ times }) => {
     );
 };
 
-export default SummaryCart;
+export default Summary;

@@ -1,7 +1,7 @@
 import React from 'react';
-import './Cart.css'
+import './GymItem.css'
 
-const Cart = ({ eventHandler, data }) => {
+const GymItem = ({ eventHandler, data }) => {
     const { image, name, time } = data;
     console.log(data)
     console.log(name)
@@ -19,4 +19,4 @@ const Cart = ({ eventHandler, data }) => {
     );
 };
 
-export default Cart;
+export default GymItem;
