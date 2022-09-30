@@ -1,0 +1,38 @@
+[
+    {
+        "id": 10,
+        "name": "Push-up",
+        "image": "https://thumbs.dreamstime.com/b/strong-young-toned-muscular-fitness-man-push-ups-workout-training-gym-floor-156937382.jpg",
+        "time": 30
+    },
+    {
+        "id": 8,
+        "name": "Dumbell",
+        "image": "https://cdn.pixabay.com/photo/2017/08/07/14/02/man-2604149__480.jpg",
+        "time": 20
+    },
+    {
+        "id": 12,
+        "name": "Pull Up",
+        "image": "https://ineedmeone.com/wp-content/uploads/2021/02/5b18ebf2343e72256a88fa73-larg_jpg_medium_2x.progressive_61c00843-ed8a-40ca-87f6-e15713e41fd9.jpg",
+        "time": 25
+    },
+    {
+        "id": 14,
+        "name": "Running",
+        "image": "https://t4.ftcdn.net/jpg/02/78/15/89/360_F_278158974_vd8UgPLRQWeHMVe4K3VMHcnYtqruZNTK.jpg",
+        "time": 15
+    },
+    {
+        "id": 11,
+        "name": "Cyclilng",
+        "image": "https://www.outsideonline.com/wp-content/uploads/2020/11/19/cyclist-lens-flare_h.jpg",
+        "time": 40
+    },
+    {
+        "id": 9,
+        "name": "Battle rope",
+        "image": "https://evofitness.ch/wp-content/uploads/2019/06/Battle-ropes-Cordes-ondulatoires-EVO-Fitness.jpg",
+        "time": 35
+    }
+]
