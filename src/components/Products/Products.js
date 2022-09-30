@@ -2,6 +2,8 @@ import './Products.css'
 import React, { useEffect, useState } from 'react';
 import Cart from '../Cart/Cart';
 import SummaryCart from '../SummaryCart/SummaryCart';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPersonWalking } from '@fortawesome/free-solid-svg-icons'
 
 
 
@@ -22,7 +24,7 @@ const Products = () => {
     return (
         <div className='container-div'>
             <div className='products-side'>
-                {/* <h1 className='products-headding'><FontAwesomeIcon icon={faPersonWalking}></FontAwesomeIcon> Total Body Gym</h1> */}
+                <h1 className='products-headding'><FontAwesomeIcon icon={faPersonWalking}></FontAwesomeIcon> Total Body Gym</h1>
                 <h3 className='product-side-h3'>Select Your Exercise  </h3>
                 <div className='products-container'>
                     {
