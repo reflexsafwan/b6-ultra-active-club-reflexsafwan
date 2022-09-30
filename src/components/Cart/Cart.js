@@ -4,6 +4,7 @@ import './Cart.css'
 const Cart = ({ eventHandler, data }) => {
     const { image, name, time } = data;
     console.log(data)
+    console.log(name)
     return (
         <div>
             <div className='cart-container'>

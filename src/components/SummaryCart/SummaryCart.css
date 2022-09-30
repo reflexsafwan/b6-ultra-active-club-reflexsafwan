@@ -1,0 +1,95 @@
+.summary-cart-container {
+    margin: 0px 20px 10px;
+}
+
+.personal-details {
+    display: flex;
+    align-items: center;
+}
+
+.personal-details h4 {
+    padding: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.personal-details p {
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+.personal-details img {
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.height-weight-age-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 5px;
+    background-color: #048168;
+    border-radius: 10px;
+}
+
+.height-weight-age-section h4 {
+    margin-bottom: 0px;
+}
+
+.height-weight-age-section p {
+    margin-top: 0px;
+}
+.kg{
+    background-color: #048168;
+}
+
+
+.break-section-btn {
+    background-color: #048168;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.break-section-btn button {
+    background-color: #0a624f;
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 10px;
+    border: none;
+    border-radius: 50%;
+}
+.break-section-btn button:hover{
+    background-color: #88b903;
+    border: 1px solid green;
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding: 10px;
+
+}
+
+.exercise-details {
+    background-color: #048168;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    padding: 0px 10px;
+    border-radius: 10px;
+}
+
+.activity-btn {
+    width: 100%;
+    height: 60px;
+    background-color: #1be267;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
