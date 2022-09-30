@@ -33,9 +33,7 @@ const Products = () => {
                     }
                 </div>
             </div>
-            {/* <div className='summary-side'>
-                <SummaryCart times={times}></SummaryCart>
-            </div> */}
+
         </div >
     );
 };
